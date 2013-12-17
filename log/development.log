@@ -1,0 +1,3424 @@
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-25 13:41:55 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /media/Data/TechVision/Projects/rails/railties/lib/rails/templates/rails/welcome/index.html.erb (7.2ms)
+Completed 200 OK in 82ms (Views: 53.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-11-25 13:42:09 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8148ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3399ms
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 1225ms (Views: 1200.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 13:42:11 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-11-25 13:42:11 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 13:42:11 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 13:42:11 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 13:42:11 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-25 13:42:11 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-11-25 13:42:11 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 13:42:11 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-25 16:39:16 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /media/Data/TechVision/Projects/rails/railties/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 15.9ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-11-25 16:39:37 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5743ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2565ms
+  Rendered posts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 52ms (Views: 22.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-25 16:39:37 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-25 16:39:37 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-25 16:39:37 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-11-25 16:39:37 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-25 16:39:37 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-25 16:39:37 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-11-25 16:39:37 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-25 16:39:37 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-11-25 16:39:46 +0530
+Processing by PostsController#new as HTML
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 10:39:49 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /media/Data/TechVision/Projects/rails/railties/lib/rails/templates/rails/welcome/index.html.erb (21.7ms)
+Completed 200 OK in 175ms (Views: 134.9ms)
+
+
+Started GET "/post/new" for 127.0.0.1 at 2013-11-26 10:40:23 +0530
+
+ActionController::RoutingError (No route matches [GET] "/post/new"):
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:38:in `call_app'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:25:in `tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `tagged'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/engine.rb:511:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.5ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/routes/_route.html.erb (3.0ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/routes/_table.html.erb (44.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (397.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-11-26 10:41:00 +0530
+Processing by PostsController#new as HTML
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-26 11:21:07 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /media/Data/TechVision/Projects/rails/railties/lib/rails/templates/rails/welcome/index.html.erb (7.8ms)
+Completed 200 OK in 95ms (Views: 63.4ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-11-26 11:21:27 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.7949ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3760ms
+  Rendered posts/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 429ms (Views: 375.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 11:21:28 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-11-26 11:21:28 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 11:21:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 11:21:28 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 11:21:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 11:21:28 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-11-26 11:21:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 11:21:28 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-11-26 11:32:00 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (137.2ms)
+  Rendered posts/new.html.erb within layouts/application (182.1ms)
+Completed 200 OK in 246ms (Views: 220.4ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-11-26 11:32:33 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lHvXGyHtzcRdUIpcVR6a0EA7yu3xBIkrRWYDj+t4BRU=", "post"=>{"title"=>"", "auther"=>"Nits", "created_date"=>"2/3/2013", "body"=>"XYZ"}, "commit"=>"Create Post"}
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-11-26 14:40:32 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lHvXGyHtzcRdUIpcVR6a0EA7yu3xBIkrRWYDj+t4BRU=", "post"=>{"title"=>"", "auther"=>"Nits", "created_date"=>"2/3/2013", "body"=>"XYZ"}, "commit"=>"Create Post"}
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-11-26 14:47:21 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lHvXGyHtzcRdUIpcVR6a0EA7yu3xBIkrRWYDj+t4BRU=", "post"=>{"title"=>"", "auther"=>"Nits", "created_date"=>"2/3/2013", "body"=>"XYZ"}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (29.5ms)
+  Rendered posts/new.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 341ms (Views: 216.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 14:47:22 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 14:47:22 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-11-26 14:47:22 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 14:47:22 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 14:47:22 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 14:47:22 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-11-26 14:47:22 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 14:47:22 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-11-26 14:51:01 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lHvXGyHtzcRdUIpcVR6a0EA7yu3xBIkrRWYDj+t4BRU=", "post"=>{"title"=>"", "auther"=>"Nits", "created_date"=>"2/3/2013", "body"=>"XYZ"}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (4.1ms)
+  Rendered posts/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 59ms (Views: 33.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 14:51:01 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-11-26 14:51:01 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 14:51:01 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:01 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:01 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:01 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:01 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:01 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-11-26 14:51:19 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.3567ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3767ms
+  Rendered posts/index.html.erb within layouts/application (6.2ms)
+Completed 200 OK in 38ms (Views: 36.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 14:51:19 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-11-26 14:51:19 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:19 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:19 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:19 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 14:51:19 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:20 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-11-26 14:51:28 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (7.8ms)
+  Rendered posts/new.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 63ms (Views: 62.2ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-11-26 14:51:52 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lHvXGyHtzcRdUIpcVR6a0EA7yu3xBIkrRWYDj+t4BRU=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"2/3/2013", "body"=>"xyz"}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (4.2ms)
+  Rendered posts/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 39ms (Views: 36.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-26 14:51:52 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-26 14:51:52 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:52 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-11-26 14:51:52 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:52 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:52 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:52 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-26 14:51:52 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-11-26 15:30:51 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lHvXGyHtzcRdUIpcVR6a0EA7yu3xBIkrRWYDj+t4BRU=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"2/3/2013", "body"=>"xyz"}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (31.1ms)
+  Rendered posts/new.html.erb within layouts/application (38.9ms)
+Completed 200 OK in 87978559ms (Views: 75.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-27 15:57:09 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-11-27 15:57:10 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-11-27 15:57:10 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-27 15:57:10 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-27 15:57:10 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-27 15:57:10 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-27 15:57:10 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-27 15:57:10 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-11-27 15:58:11 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lHvXGyHtzcRdUIpcVR6a0EA7yu3xBIkrRWYDj+t4BRU=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"2/3/2013", "body"=>"xyz"}, "commit"=>"Create Post"}
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-11-29 11:19:37 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.7391ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.0298ms
+  Rendered posts/index.html.erb within layouts/application (310.0ms)
+Completed 500 Internal Server Error in 542ms
+
+ActionView::Template::Error (Could not connect to a primary node for replica set #<Moped::Cluster:90055520 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+    14:   </thead>
+    15: 
+    16:   <tbody>
+    17:     <% @posts.each do |post| %>
+    18:       <tr>
+    19:         <td><%= post.title %></td>
+    20:         <td><%= post.auther %></td>
+  app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___428054848_90032060'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (214.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-11-29 11:19:49 +0530
+Processing by PostsController#index as HTML
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.8269ms
+  Rendered posts/index.html.erb within layouts/application (278.6ms)
+Completed 500 Internal Server Error in 297ms
+
+ActionView::Template::Error (Could not connect to a primary node for replica set #<Moped::Cluster:90055520 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+    14:   </thead>
+    15: 
+    16:   <tbody>
+    17:     <% @posts.each do |post| %>
+    18:       <tr>
+    19:         <td><%= post.title %></td>
+    20:         <td><%= post.auther %></td>
+  app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___428054848_90032060'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (196.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-11-29 11:22:08 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /media/Data/TechVision/Projects/rails/railties/lib/rails/templates/rails/welcome/index.html.erb (0.8ms)
+Completed 200 OK in 41ms (Views: 40.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-11-29 11:22:23 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 25.7016ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.6685ms
+  Rendered posts/index.html.erb within layouts/application (288.5ms)
+Completed 500 Internal Server Error in 302ms
+
+ActionView::Template::Error (Could not connect to a primary node for replica set #<Moped::Cluster:90642240 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+    14:   </thead>
+    15: 
+    16:   <tbody>
+    17:     <% @posts.each do |post| %>
+    18:       <tr>
+    19:         <td><%= post.title %></td>
+    20:         <td><%= post.auther %></td>
+  app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___428054848_90032060'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (197.9ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.9359ms
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-11-29 11:25:28 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7369ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.7188ms
+  Rendered posts/index.html.erb within layouts/application (263.8ms)
+Completed 500 Internal Server Error in 282ms
+
+ActionView::Template::Error (Could not connect to a primary node for replica set #<Moped::Cluster:90176940 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+    14:   </thead>
+    15: 
+    16:   <tbody>
+    17:     <% @posts.each do |post| %>
+    18:       <tr>
+    19:         <td><%= post.title %></td>
+    20:         <td><%= post.auther %></td>
+  app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___428054848_90032060'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (197.5ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-11-29 11:59:26 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.8977ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.3036ms
+  Rendered posts/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 395ms (Views: 394.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-11-29 11:59:27 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-11-29 11:59:27 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-11-29 11:59:27 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-11-29 11:59:27 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-11-29 11:59:27 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-11-29 11:59:27 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-11-29 11:59:27 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-11-29 11:59:27 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-11-29 12:06:18 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (117.0ms)
+  Rendered posts/new.html.erb within layouts/application (169.6ms)
+Completed 200 OK in 212ms (Views: 210.9ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-11-29 12:06:29 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lHvXGyHtzcRdUIpcVR6a0EA7yu3xBIkrRWYDj+t4BRU=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-11-29 15:11:02 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"lHvXGyHtzcRdUIpcVR6a0EA7yu3xBIkrRWYDj+t4BRU=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-03 12:53:28 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /media/Data/TechVision/Projects/rails/railties/lib/rails/templates/rails/welcome/index.html.erb (16.5ms)
+Completed 200 OK in 199ms (Views: 157.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-03 12:53:39 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.4829ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.5419ms
+  Rendered posts/index.html.erb within layouts/application (288.6ms)
+Completed 500 Internal Server Error in 515ms
+
+ActionView::Template::Error (Could not connect to a primary node for replica set #<Moped::Cluster:83907650 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+    14:   </thead>
+    15: 
+    16:   <tbody>
+    17:     <% @posts.each do |post| %>
+    18:       <tr>
+    19:         <td><%= post.title %></td>
+    20:         <td><%= post.auther %></td>
+  app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___896641107_83878180'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.0ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (124.8ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-03 12:55:48 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6172ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 1.3753ms
+  Rendered posts/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 738ms (Views: 737.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-03 12:55:49 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-03 12:55:49 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-03 12:55:49 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-03 12:55:49 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-03 12:55:49 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-03 12:55:49 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-03 12:55:49 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-03 12:55:49 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-03 13:08:31 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (191.1ms)
+  Rendered posts/new.html.erb within layouts/application (235.8ms)
+Completed 200 OK in 256ms (Views: 254.9ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-03 13:16:52 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ngjQawc+MBWzzJg3PUUJgijFzZ+HmkI6X1sda600Z8w=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-04 12:39:18 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"ngjQawc+MBWzzJg3PUUJgijFzZ+HmkI6X1sda600Z8w=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Completed 500 Internal Server Error in 259948ms
+
+ArgumentError (comparison of Symbol with 0 failed):
+  app/controllers/posts_controller.rb:27:in `create'
+
+
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-07 11:46:21 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /media/Data/TechVision/Projects/rails/railties/lib/rails/templates/rails/welcome/index.html.erb (20.8ms)
+Completed 200 OK in 178ms (Views: 131.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-07 11:46:41 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 2.1536ms
+  MOPED: Retrying connection attempt 1 more time(s). runtime: n/a
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.6776ms
+  Rendered posts/index.html.erb within layouts/application (293.9ms)
+Completed 500 Internal Server Error in 403ms
+
+ActionView::Template::Error (Could not connect to a primary node for replica set #<Moped::Cluster:81637670 @seeds=[<Moped::Node resolved_address="127.0.0.1:27017">]>):
+    14:   </thead>
+    15: 
+    16:   <tbody>
+    17:     <% @posts.each do |post| %>
+    18:       <tr>
+    19:         <td><%= post.title %></td>
+    20:         <td><%= post.auther %></td>
+  app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb___310508516_81624720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (215.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-07 11:47:59 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6777ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 2.5575ms
+  Rendered posts/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 611ms (Views: 610.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 11:48:00 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-07 11:48:00 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-07 11:48:00 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 11:48:00 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-07 11:48:00 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 11:48:00 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-07 11:48:00 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 11:48:00 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-07 11:48:13 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (173.9ms)
+  Rendered posts/new.html.erb within layouts/application (219.3ms)
+Completed 200 OK in 262ms (Views: 260.5ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-07 11:48:20 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"DeoQTzHMbvzqTvYNsTIOkh3pEjGv2WSvG4jmXbFHW/I=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (10.9ms)
+  Rendered posts/new.html.erb within layouts/application (22.0ms)
+Completed 200 OK in 64ms (Views: 60.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-07 11:48:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-07 11:48:20 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-07 11:48:20 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-07 11:48:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-07 11:48:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-07 11:48:20 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-07 11:48:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-07 11:48:20 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-12 12:24:29 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /media/Data/TechVision/Projects/rails/railties/lib/rails/templates/rails/welcome/index.html.erb (21.1ms)
+Completed 200 OK in 185ms (Views: 131.3ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 12:24:38 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7785ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2711ms
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 518ms (Views: 455.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 12:24:39 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 12:24:39 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 12:24:39 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 12:24:39 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 12:24:39 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 12:24:39 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 12:24:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 12:24:39 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 12:24:54 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (170.0ms)
+  Rendered posts/new.html.erb within layouts/application (262.4ms)
+Completed 200 OK in 308ms (Views: 306.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 12:39:28 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (7.6ms)
+  Rendered posts/new.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 47ms (Views: 45.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 12:39:28 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 12:39:28 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 12:39:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 12:39:29 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 12:39:29 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 12:39:29 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 12:39:29 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 12:39:29 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 12:39:57 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tq3d6FShhbhK/FPpo4bNY+1Q8pf+WNfTkB2VqjPXScc=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (8.0ms)
+  Rendered posts/new.html.erb within layouts/application (14.2ms)
+Completed 200 OK in 56ms (Views: 50.2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 12:39:57 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 12:39:57 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 12:39:57 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 12:39:57 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 12:39:57 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 12:39:57 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 12:39:57 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 12:39:57 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 12:40:17 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9101ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4436ms
+  Rendered posts/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 50ms (Views: 48.1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 12:40:22 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (5.4ms)
+  Rendered posts/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 61ms (Views: 59.4ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 12:40:37 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tq3d6FShhbhK/FPpo4bNY+1Q8pf+WNfTkB2VqjPXScc=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (4.0ms)
+  Rendered posts/new.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 41ms (Views: 34.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 12:40:37 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 12:40:37 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 12:40:37 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 12:40:37 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 12:40:37 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 12:40:37 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 12:40:37 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 12:40:37 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 13:15:34 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tq3d6FShhbhK/FPpo4bNY+1Q8pf+WNfTkB2VqjPXScc=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (6.1ms)
+  Rendered posts/new.html.erb within layouts/application (11.9ms)
+Completed 200 OK in 38ms (Views: 34.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:15:34 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:15:34 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:15:34 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:15:34 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:15:34 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:15:34 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:15:34 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:15:34 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 13:16:08 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7207ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3242ms
+  Rendered posts/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 47ms (Views: 46.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:16:08 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:16:08 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:16:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:16:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:16:08 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:16:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:16:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:16:08 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:16:14 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (5.0ms)
+  Rendered posts/new.html.erb within layouts/application (15.7ms)
+Completed 200 OK in 58ms (Views: 56.4ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:17:38 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (4.8ms)
+  Rendered posts/new.html.erb within layouts/application (11.3ms)
+Completed 200 OK in 43ms (Views: 41.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:17:39 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:17:39 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:17:39 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:17:39 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:17:39 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:17:39 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:17:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:17:39 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:18:34 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (2.2ms)
+  Rendered posts/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 36ms (Views: 34.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:18:35 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:18:35 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:18:35 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:18:35 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:18:35 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:18:35 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:18:35 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:18:35 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:20:12 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (5.1ms)
+  Rendered posts/new.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 49ms (Views: 47.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:20:12 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:20:12 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:20:12 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:20:12 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:20:12 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:20:12 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:20:12 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:20:12 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:28:15 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (4.9ms)
+  Rendered posts/new.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 44ms (Views: 42.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:28:15 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:28:15 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:28:15 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:28:15 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:28:15 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:28:15 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:28:15 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:28:15 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 13:28:25 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tq3d6FShhbhK/FPpo4bNY+1Q8pf+WNfTkB2VqjPXScc=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (5.9ms)
+  Rendered posts/new.html.erb within layouts/application (12.1ms)
+Completed 200 OK in 45ms (Views: 40.9ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:28:25 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:28:25 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:28:25 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:28:25 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:28:25 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:28:25 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:28:25 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:28:25 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 13:43:02 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tq3d6FShhbhK/FPpo4bNY+1Q8pf+WNfTkB2VqjPXScc=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (4.4ms)
+  Rendered posts/new.html.erb within layouts/application (10.9ms)
+Completed 200 OK in 40ms (Views: 34.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:43:02 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:43:02 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:02 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:43:02 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:02 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:02 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:02 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:02 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 13:43:12 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tq3d6FShhbhK/FPpo4bNY+1Q8pf+WNfTkB2VqjPXScc=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (5.5ms)
+  Rendered posts/new.html.erb within layouts/application (9.9ms)
+Completed 200 OK in 44ms (Views: 39.2ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:43:12 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:12 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:43:12 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:43:12 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:12 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:12 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:12 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:12 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 13:43:25 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1370ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5733ms
+  Rendered posts/index.html.erb within layouts/application (4.2ms)
+Completed 200 OK in 31ms (Views: 30.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:43:25 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:43:25 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:25 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:26 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:43:26 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:26 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:26 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:43:26 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:43:30 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (5.2ms)
+  Rendered posts/new.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 51ms (Views: 50.9ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:44:42 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (52.4ms)
+  Rendered posts/new.html.erb within layouts/application (77.3ms)
+Completed 200 OK in 325ms (Views: 242.5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:44:42 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:44:42 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:44:43 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:44:43 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:44:43 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:44:43 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:44:43 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:44:43 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 13:44:52 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tq3d6FShhbhK/FPpo4bNY+1Q8pf+WNfTkB2VqjPXScc=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (5.0ms)
+  Rendered posts/new.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 33ms (Views: 30.1ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:44:53 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:44:53 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:44:53 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:44:53 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:44:53 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:44:53 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:44:53 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:44:53 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 13:47:45 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"tq3d6FShhbhK/FPpo4bNY+1Q8pf+WNfTkB2VqjPXScc=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (33.2ms)
+  Rendered posts/new.html.erb within layouts/application (56.7ms)
+Completed 200 OK in 309ms (Views: 217.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:47:46 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:47:46 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:47:46 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:47:46 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:47:46 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:47:46 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:47:46 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:47:46 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 13:48:41 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.4846ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4089ms
+  Rendered posts/index.html.erb within layouts/application (7.1ms)
+Completed 200 OK in 46ms (Views: 44.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:48:41 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:48:41 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:48:41 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:48:41 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:48:41 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:48:41 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:48:41 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:48:41 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:48:45 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (7.2ms)
+  Rendered posts/new.html.erb within layouts/application (18.5ms)
+Completed 200 OK in 58ms (Views: 57.1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:51:49 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (2.7ms)
+  Rendered posts/new.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 36ms (Views: 34.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:51:50 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:51:50 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:51:50 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:51:50 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:51:50 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:51:50 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:51:50 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:51:50 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 13:51:57 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.7251ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3375ms
+  Rendered posts/index.html.erb within layouts/application (4.9ms)
+Completed 200 OK in 35ms (Views: 34.5ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:52:03 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (5.6ms)
+  Rendered posts/new.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 61ms (Views: 59.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:52:28 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (4.8ms)
+  Rendered posts/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 38ms (Views: 37.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:52:28 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:52:28 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:52:28 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:52:28 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:52:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:52:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:52:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:52:28 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 13:52:34 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.9993ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.5196ms
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 44ms (Views: 43.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:52:38 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (4.9ms)
+  Rendered posts/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 61ms (Views: 59.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:53:29 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (53.4ms)
+  Rendered posts/new.html.erb within layouts/application (76.9ms)
+Completed 200 OK in 322ms (Views: 244.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:53:29 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:53:29 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:53:29 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:53:29 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:53:29 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:53:29 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:53:29 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:53:29 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 13:53:56 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.4662ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3883ms
+  Rendered posts/index.html.erb within layouts/application (7.0ms)
+Completed 200 OK in 46ms (Views: 46.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:54:04 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (7.4ms)
+  Rendered posts/new.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 62ms (Views: 60.3ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 13:54:08 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OOU5tdZQohplbO6Xqf8A//z9/Dj2sfbUZKWUICtyRsk=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (4.4ms)
+  Rendered posts/new.html.erb within layouts/application (11.4ms)
+Completed 200 OK in 39ms (Views: 34.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:54:08 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:54:08 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:54:08 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:54:08 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:54:08 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:54:08 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:54:08 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:54:08 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 13:59:30 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"OOU5tdZQohplbO6Xqf8A//z9/Dj2sfbUZKWUICtyRsk=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (6.5ms)
+  Rendered posts/new.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 55ms (Views: 50.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:59:30 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:59:30 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:59:30 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:59:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:59:30 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:59:30 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:59:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:59:30 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 13:59:40 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5667ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1672ms
+  Rendered posts/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 32ms (Views: 30.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 13:59:40 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 13:59:40 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 13:59:40 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 13:59:40 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 13:59:40 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 13:59:40 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 13:59:40 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 13:59:40 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 13:59:43 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (5.4ms)
+  Rendered posts/new.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 58ms (Views: 57.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-12 14:00:25 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /media/Data/TechVision/Projects/rails/railties/lib/rails/templates/rails/welcome/index.html.erb (8.2ms)
+Completed 200 OK in 94ms (Views: 63.6ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 14:00:43 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.4877ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.4160ms
+  Rendered posts/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 185ms (Views: 152.6ms)
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 14:00:43 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 14:00:43 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 14:00:43 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 14:00:43 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 14:00:43 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 14:00:43 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 14:00:43 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 14:00:43 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 14:00:50 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (51.9ms)
+  Rendered posts/new.html.erb within layouts/application (72.3ms)
+Completed 200 OK in 117ms (Views: 115.2ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 14:00:57 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qGO4n/CzGdfTWs5XXwL2jlOD+4bi0WO2CY9DEHdtzT4=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (11.8ms)
+  Rendered posts/new.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 64ms (Views: 56.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 14:00:57 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 14:00:57 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 14:00:57 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 14:00:57 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 14:00:57 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 14:00:57 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 14:00:57 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 14:00:57 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 14:03:01 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qGO4n/CzGdfTWs5XXwL2jlOD+4bi0WO2CY9DEHdtzT4=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (4.3ms)
+  Rendered posts/new.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 35ms (Views: 32.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 14:03:01 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 14:03:01 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 14:03:01 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 14:03:01 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 14:03:01 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 14:03:01 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 14:03:01 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 14:03:01 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 14:03:45 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qGO4n/CzGdfTWs5XXwL2jlOD+4bi0WO2CY9DEHdtzT4=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:377:in `_run__390733195__process_action__callbacks'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications.rb:159:in `block in instrument'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications.rb:159:in `instrument'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/base.rb:136:in `process'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/rendering.rb:44:in `process'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal.rb:195:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal.rb:231:in `block in action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:80:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:59:in `each'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:59:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:373:in `_run__991031551__call__callbacks'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:38:in `call_app'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:25:in `tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `tagged'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/engine.rb:511:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (325.8ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 14:04:30 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"qGO4n/CzGdfTWs5XXwL2jlOD+4bi0WO2CY9DEHdtzT4=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:377:in `_run__390733195__process_action__callbacks'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications.rb:159:in `block in instrument'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications.rb:159:in `instrument'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/base.rb:136:in `process'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/rendering.rb:44:in `process'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal.rb:195:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal.rb:231:in `block in action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:80:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:59:in `each'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:59:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:373:in `_run__991031551__call__callbacks'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:38:in `call_app'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:25:in `tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `tagged'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/engine.rb:511:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (308.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-12 14:04:43 +0530
+Processing by Rails::WelcomeController#index as HTML
+  Rendered /media/Data/TechVision/Projects/rails/railties/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 15.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 14:04:52 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.3747ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1863ms
+  Rendered posts/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 24ms (Views: 23.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 14:04:53 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 14:04:53 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 14:04:53 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 14:04:53 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 14:04:53 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 14:04:53 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 14:04:53 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 14:04:53 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 14:04:59 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (5.7ms)
+  Rendered posts/new.html.erb within layouts/application (16.8ms)
+Completed 200 OK in 62ms (Views: 60.8ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 14:05:07 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PF8QD219S6ogJuSaizjU2iH81CtY1Gm5y9xDo97jO1M=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (6.2ms)
+  Rendered posts/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 43ms (Views: 39.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 14:05:07 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 14:05:07 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 14:05:07 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 14:05:07 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 14:05:07 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 14:05:07 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 14:05:07 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 14:05:07 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 15:15:19 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"PF8QD219S6ogJuSaizjU2iH81CtY1Gm5y9xDo97jO1M=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 27ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:377:in `_run__707913095__process_action__callbacks'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications.rb:159:in `block in instrument'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications.rb:159:in `instrument'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/base.rb:136:in `process'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/rendering.rb:44:in `process'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal.rb:195:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal.rb:231:in `block in action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:80:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:59:in `each'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:59:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:373:in `_run__755662847__call__callbacks'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:38:in `call_app'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:25:in `tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `tagged'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/engine.rb:511:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.4ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (286.0ms)
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 15:15:30 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.1629ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.3501ms
+  Rendered posts/index.html.erb within layouts/application (5.8ms)
+Completed 200 OK in 163ms (Views: 135.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 15:15:30 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 15:15:30 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 15:15:30 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 15:15:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 15:15:30 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 15:15:30 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 15:15:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 15:15:30 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 15:15:37 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (50.5ms)
+  Rendered posts/new.html.erb within layouts/application (70.7ms)
+Completed 200 OK in 116ms (Views: 114.3ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 15:15:47 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"owj2bw9DngK7jcf8uYGxi5iuW42vgJ4dEuqraPQg51Y=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (9.4ms)
+  Rendered posts/new.html.erb within layouts/application (16.4ms)
+Completed 200 OK in 58ms (Views: 49.7ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 15:15:47 +0530
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 15:15:47 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 15:15:47 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 15:15:47 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 15:15:47 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 15:15:47 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 15:15:47 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 15:15:47 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 15:19:28 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"owj2bw9DngK7jcf8uYGxi5iuW42vgJ4dEuqraPQg51Y=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (35.1ms)
+  Rendered posts/new.html.erb within layouts/application (58.7ms)
+Completed 200 OK in 328ms (Views: 228.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 15:19:28 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 15:19:28 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 15:19:28 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 15:19:28 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 15:19:28 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 15:19:28 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 15:19:28 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 15:19:28 +0530
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 15:19:39 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6790ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.1786ms
+  Rendered posts/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 31ms (Views: 30.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-12 15:19:39 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-12 15:19:39 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-12 15:19:39 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-12 15:19:39 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-12 15:19:39 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-12 15:19:39 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-12 15:19:39 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-12 15:19:39 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 15:19:44 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (7.1ms)
+  Rendered posts/new.html.erb within layouts/application (21.4ms)
+Completed 200 OK in 62ms (Views: 60.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 12:47:23 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (172.9ms)
+  Rendered posts/new.html.erb within layouts/application (232.6ms)
+Completed 200 OK in 758ms (Views: 658.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 12:47:24 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 12:47:24 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 12:47:24 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 12:47:24 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 12:47:24 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 12:47:24 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 12:47:24 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 12:47:24 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 13:01:19 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (52.1ms)
+  Rendered posts/new.html.erb within layouts/application (77.2ms)
+Completed 200 OK in 328ms (Views: 247.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 13:01:19 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 13:01:19 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 13:01:19 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 13:01:19 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 13:01:19 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 13:01:20 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 13:01:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 13:01:20 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 16:01:13 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (53.8ms)
+  Rendered posts/new.html.erb within layouts/application (78.2ms)
+Completed 200 OK in 1186ms (Views: 1113.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 16:01:14 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 16:01:14 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 16:01:15 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 16:01:15 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 16:01:15 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 16:01:15 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 16:01:15 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 16:01:15 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 16:11:37 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (54.5ms)
+  Rendered posts/new.html.erb within layouts/application (78.3ms)
+Completed 200 OK in 316ms (Views: 244.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 16:11:38 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 16:11:38 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 16:11:38 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 16:11:38 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 16:11:38 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 16:11:38 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 16:11:38 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 16:11:38 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 16:13:40 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (5.8ms)
+  Rendered posts/new.html.erb within layouts/application (13.6ms)
+Completed 200 OK in 58ms (Views: 56.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 16:13:40 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 16:13:40 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 16:13:40 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 16:13:40 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 16:13:40 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 16:13:40 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 16:13:40 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 16:13:40 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 16:14:12 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (53.4ms)
+  Rendered posts/new.html.erb within layouts/application (77.1ms)
+Completed 200 OK in 301ms (Views: 230.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 16:14:12 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 16:14:12 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 16:14:12 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 16:14:12 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 16:14:12 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 16:14:12 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 16:14:12 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 16:14:12 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 16:14:53 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (4.1ms)
+  Rendered posts/new.html.erb within layouts/application (9.0ms)
+Completed 200 OK in 41ms (Views: 40.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 16:14:53 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 16:14:53 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 16:14:53 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 16:14:53 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 16:14:53 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 16:14:53 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 16:14:53 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 16:14:53 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 16:20:20 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (10.0ms)
+  Rendered posts/new.html.erb within layouts/application (17.7ms)
+Completed 200 OK in 68ms (Views: 62.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 16:20:20 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 16:20:20 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 16:20:20 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 16:20:20 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 16:20:20 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 16:20:20 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 16:20:20 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 16:20:20 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 16:51:51 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Completed 500 Internal Server Error in 22ms
+
+Mongoid::Errors::UnknownAttribute (
+Problem:
+  Attempted to set a value for 'auther' which is not allowed on the model Post.
+Summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call Post#auther= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+Resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  app/controllers/posts_controller.rb:27:in `new'
+  app/controllers/posts_controller.rb:27:in `create'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.3ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (313.5ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 16:52:38 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Completed 500 Internal Server Error in 103ms
+
+Mongoid::Errors::UnknownAttribute (
+Problem:
+  Attempted to set a value for 'auther' which is not allowed on the model Post.
+Summary:
+  Without including Mongoid::Attributes::Dynamic in your model and the attribute does not already exist in the attributes hash, attempting to call Post#auther= for it is not allowed. This is also triggered by passing the attribute to any method that accepts an attributes hash, and is raised instead of getting a NoMethodError.
+Resolution:
+  You can include Mongoid::Attributes::Dynamic if you expect to be writing values for undefined fields often.):
+  app/controllers/posts_controller.rb:27:in `new'
+  app/controllers/posts_controller.rb:27:in `create'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (300.4ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 16:55:10 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (29.7ms)
+  Rendered posts/new.html.erb within layouts/application (42.9ms)
+Completed 200 OK in 219ms (Views: 176.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 16:55:10 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 16:55:10 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 16:55:10 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 16:55:10 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 16:55:10 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 16:55:10 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 16:55:10 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 16:55:11 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 16:55:30 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (4.4ms)
+  Rendered posts/new.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 36ms (Views: 34.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 16:55:30 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 16:55:30 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 16:55:30 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 16:55:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 16:55:30 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 16:55:30 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 16:55:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 16:55:30 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 17:16:31 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (11.9ms)
+  Rendered posts/new.html.erb within layouts/application (16.2ms)
+Completed 200 OK in 36ms (Views: 35.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 17:16:31 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 17:16:31 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 17:16:31 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 17:16:31 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 17:16:31 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 17:16:31 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 17:16:31 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 17:16:31 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 17:17:01 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "author"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Unpermitted parameters: author
+Completed 500 Internal Server Error in 5ms
+
+NoMethodError (undefined method `auther' for #<Post:0xb1bc730>):
+  app/controllers/posts_controller.rb:30:in `block in create'
+  app/controllers/posts_controller.rb:29:in `create'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (301.1ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 17:20:19 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "author"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Completed 500 Internal Server Error in 31ms
+
+NoMethodError (undefined method `auther' for #<Post:0xb252294>):
+  app/controllers/posts_controller.rb:30:in `block in create'
+  app/controllers/posts_controller.rb:29:in `create'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (298.9ms)
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 17:20:35 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "author"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Completed 500 Internal Server Error in 38ms
+
+NoMethodError (undefined method `auther' for #<Post:0xb5305754>):
+  app/controllers/posts_controller.rb:30:in `block in create'
+  app/controllers/posts_controller.rb:29:in `create'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (310.4ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 17:21:44 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (3.4ms)
+  Rendered posts/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 42ms (Views: 41.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 17:21:44 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 17:21:44 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 17:21:44 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 17:21:44 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 17:21:44 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 17:21:44 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 17:21:44 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 17:21:44 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 17:21:52 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "author"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (undefined method `auther' for #<Post:0xb12d5bc>):
+  app/controllers/posts_controller.rb:30:in `block in create'
+  app/controllers/posts_controller.rb:29:in `create'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (280.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 17:23:04 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (59.2ms)
+  Rendered posts/new.html.erb within layouts/application (82.9ms)
+Completed 200 OK in 309ms (Views: 248.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 17:23:05 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 17:23:05 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 17:23:05 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 17:23:05 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 17:23:05 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 17:23:05 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 17:23:05 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 17:23:05 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 17:23:11 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "author"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Completed 500 Internal Server Error in 3ms
+
+NoMethodError (undefined method `auther' for #<Post:0xa34a4cc>):
+  app/controllers/posts_controller.rb:30:in `block in create'
+  app/controllers/posts_controller.rb:29:in `create'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (273.9ms)
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 1.4816ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={"$query"=>{}, "$orderby"=>{:_id=>1}} flags=[] limit=-1 skip=0 batch_size=nil fields=nil runtime: 0.7243ms
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 17:28:48 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "author"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (10.1ms)
+  Rendered posts/new.html.erb within layouts/application (18.0ms)
+Completed 200 OK in 87ms (Views: 54.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 17:28:48 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 17:28:48 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 17:28:48 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 17:28:48 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 17:28:48 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 17:28:48 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 17:28:49 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 17:28:49 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 17:30:58 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "author"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (5.3ms)
+  Rendered posts/new.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 40ms (Views: 34.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 17:30:58 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 17:30:58 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 17:30:58 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 17:30:58 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 17:30:58 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 17:30:58 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 17:30:58 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 17:30:58 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 17:31:28 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "author"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (4.4ms)
+  Rendered posts/new.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 37ms (Views: 34.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 17:31:29 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 17:31:29 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 17:31:29 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 17:31:29 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 17:31:29 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 17:31:29 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 17:31:29 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 17:31:29 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 17:31:45 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "author"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (5.0ms)
+  Rendered posts/new.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 37ms (Views: 33.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 17:31:45 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 17:31:45 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 17:31:45 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 17:31:45 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 17:31:45 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 17:31:45 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 17:31:45 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 17:31:45 +0530
+
+
+Started POST "/posts" for 127.0.0.1 at 2013-12-13 17:45:59 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"xuD/TN6pVIzClV1ujhpY7PeAie8/uv1Dc7FGJ8ZqB7w=", "post"=>{"title"=>"", "author"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (9.6ms)
+  Rendered posts/new.html.erb within layouts/application (17.3ms)
+Completed 200 OK in 110ms (Views: 52.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 17:45:59 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 17:45:59 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 17:45:59 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 17:45:59 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 17:45:59 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 17:45:59 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 17:45:59 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 17:45:59 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 17:46:06 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (3.4ms)
+  Rendered posts/new.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 31ms (Views: 30.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 17:46:07 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 17:46:07 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 17:46:07 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 17:46:07 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 17:46:07 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 17:46:07 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 17:46:07 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 17:46:07 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 17:50:23 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (12.4ms)
+  Rendered posts/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 40ms (Views: 39.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 17:50:24 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 17:50:24 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 17:50:24 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 17:50:24 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 17:50:24 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 17:50:24 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 17:50:24 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 17:50:24 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 18:51:29 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (4.2ms)
+  Rendered posts/new.html.erb within layouts/application (9.3ms)
+Completed 200 OK in 31ms (Views: 30.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 18:51:29 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 18:51:30 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 18:51:30 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 18:51:30 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 18:51:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 18:51:30 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 18:51:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 18:51:30 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 18:52:11 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (7.4ms)
+  Rendered posts/new.html.erb within layouts/application (16.3ms)
+Completed 200 OK in 45ms (Views: 44.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:11 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:11 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:11 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:11 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:11 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:11 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:11 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:11 +0530
+
+
+Started GET "/posts/" for 127.0.0.1 at 2013-12-13 18:52:22 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.6440ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2794ms
+  Rendered posts/index.html.erb within layouts/application (4.8ms)
+Completed 200 OK in 49ms (Views: 48.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:22 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:22 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:22 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:22 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:22 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:22 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:22 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:22 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 18:52:27 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (4.3ms)
+  Rendered posts/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 38ms (Views: 37.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:27 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:27 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:27 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:27 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:27 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:27 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:27 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:27 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 18:52:45 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (6.0ms)
+  Rendered posts/new.html.erb within layouts/application (16.5ms)
+Completed 200 OK in 60ms (Views: 58.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:45 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:45 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:45 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 18:52:45 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:45 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:45 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:45 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 18:52:45 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 18:55:32 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (1.1ms)
+  Rendered posts/new.html.erb within layouts/application (6.1ms)
+Completed 500 Internal Server Error in 27ms
+
+SyntaxError (/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:39: syntax error, unexpected keyword_ensure, expecting keyword_end
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:41: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (294.9ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 18:56:30 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (7.8ms)
+  Rendered posts/new.html.erb within layouts/application (16.1ms)
+Completed 200 OK in 54ms (Views: 52.6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 18:56:30 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 18:56:30 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 18:56:30 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 18:56:30 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 18:56:30 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 18:56:30 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 18:56:30 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 18:56:30 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 19:53:31 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (2.5ms)
+  Rendered posts/new.html.erb within layouts/application (10.3ms)
+Completed 500 Internal Server Error in 68ms
+
+SyntaxError (/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:29: syntax error, unexpected ',', expecting ')'
+...uffer.append=( f.select (:post, :country_id, [["India",1], [...
+...                               ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:29: syntax error, unexpected ')', expecting :: or '[' or '.'
+..., ["America", 2], ["Spen", 3]]) );@output_buffer.safe_append...
+...                               ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:40: syntax error, unexpected '<', expecting ')'
+    <%= f.radio_button (:select_ta...
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:41: syntax error, unexpected ',', expecting ')'
+...=( f.radio_button (:select_tag, "Rails") );@output_buffer.sa...
+...                               ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:54: syntax error, unexpected keyword_end, expecting ')'
+';end  
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:56: syntax error, unexpected keyword_ensure, expecting ')'
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:58: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.5ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (308.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 19:55:57 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (2.4ms)
+  Rendered posts/new.html.erb within layouts/application (15.7ms)
+Completed 500 Internal Server Error in 33ms
+
+SyntaxError (/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:40: syntax error, unexpected '<', expecting ')'
+    <%= f.radio_button (:select_ta...
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:41: syntax error, unexpected ',', expecting ')'
+...=( f.radio_button (:select_tag, "Rails") );@output_buffer.sa...
+...                               ^):
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (306.0ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 19:58:21 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (2.5ms)
+  Rendered posts/new.html.erb within layouts/application (10.4ms)
+Completed 500 Internal Server Error in 25ms
+
+SyntaxError (/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:40: syntax error, unexpected '<', expecting ')'
+    <%= f.radio_button(:select_tag...
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:54: syntax error, unexpected keyword_end, expecting ')'
+';end  
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:56: syntax error, unexpected keyword_ensure, expecting ')'
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:58: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.5ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.9ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (294.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 20:02:41 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (2.0ms)
+  Rendered posts/new.html.erb within layouts/application (10.8ms)
+Completed 500 Internal Server Error in 49ms
+
+SyntaxError (/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:40: syntax error, unexpected '<', expecting ')'
+    <%= radio_button(:select_tag, ...
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:54: syntax error, unexpected keyword_end, expecting ')'
+';end  
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:56: syntax error, unexpected keyword_ensure, expecting ')'
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:58: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (307.2ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 20:04:52 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (2.3ms)
+  Rendered posts/new.html.erb within layouts/application (9.6ms)
+Completed 500 Internal Server Error in 43ms
+
+SyntaxError (/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:40: syntax error, unexpected '<', expecting ')'
+    <%= f.radio_button :select_tag...
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:54: syntax error, unexpected keyword_end, expecting ')'
+';end  
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:56: syntax error, unexpected keyword_ensure, expecting ')'
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:58: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.7ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.3ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (304.3ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 20:05:50 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (1.1ms)
+  Rendered posts/new.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 23ms
+
+SyntaxError (/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:40: syntax error, unexpected '<', expecting ')'
+    <%= f.radio_button(:select_tag...
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:54: syntax error, unexpected keyword_end, expecting ')'
+';end  
+     ^
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:56: syntax error, unexpected keyword_ensure, expecting ')'
+/media/Data/TechVision/Projects/blog/app/views/posts/_form.html.erb:58: syntax error, unexpected keyword_end, expecting ')'):
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_source.erb (1.6ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (303.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 20:07:08 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (10.2ms)
+  Rendered posts/new.html.erb within layouts/application (14.9ms)
+Completed 500 Internal Server Error in 31ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1..2)):
+    17:   </div>
+    18:   <div class="email">
+    19:     <%= f.label :email %>
+    20:     <%= f.email_field %>
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :author %><br>
+  app/views/posts/_form.html.erb:20:in `block in _app_views_posts__form_html_erb__385393890__628588358'
+  app/views/posts/_form.html.erb:1:in `_app_views_posts__form_html_erb__385393890__628588358'
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.0ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.4ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (211.1ms)
+
+
+Started GET "/posts/" for 127.0.0.1 at 2013-12-13 20:08:07 +0530
+Processing by PostsController#index as HTML
+  MOPED: 127.0.0.1:27017 COMMAND      database=admin command={:ismaster=>1} runtime: 0.5006ms
+  MOPED: 127.0.0.1:27017 QUERY        database=blog_development collection=posts selector={} flags=[] limit=0 skip=0 batch_size=nil fields=nil runtime: 0.2842ms
+  Rendered posts/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 32ms (Views: 31.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 20:08:07 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 20:08:07 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 20:08:07 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 20:08:07 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 20:08:07 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 20:08:07 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 20:08:07 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 20:08:07 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 20:08:14 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (15.1ms)
+  Rendered posts/new.html.erb within layouts/application (26.7ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1..2)):
+    17:   </div>
+    18:   <div class="email">
+    19:     <%= f.label :email %>
+    20:     <%= f.email_field %>
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :author %><br>
+  app/views/posts/_form.html.erb:20:in `block in _app_views_posts__form_html_erb__385393890_95090050'
+  app/views/posts/_form.html.erb:1:in `_app_views_posts__form_html_erb__385393890_95090050'
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95052790'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.0ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (190.6ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 20:08:15 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (11.6ms)
+  Rendered posts/new.html.erb within layouts/application (19.1ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1..2)):
+    17:   </div>
+    18:   <div class="email">
+    19:     <%= f.label :email %>
+    20:     <%= f.email_field %>
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :author %><br>
+  app/views/posts/_form.html.erb:20:in `block in _app_views_posts__form_html_erb__385393890__628588358'
+  app/views/posts/_form.html.erb:1:in `_app_views_posts__form_html_erb__385393890__628588358'
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.8ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (199.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 20:11:12 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (12.6ms)
+  Rendered posts/new.html.erb within layouts/application (19.7ms)
+Completed 500 Internal Server Error in 47ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 1..2)):
+    17:   </div>
+    18:   <div class="email">
+    19:     <%= f.label :email %><br>
+    20:     <%= f.email_field %>
+    21:   </div>
+    22:   <div class="field">
+    23:     <%= f.label :author %><br>
+  app/views/posts/_form.html.erb:20:in `block in _app_views_posts__form_html_erb__385393890_95777830'
+  app/views/posts/_form.html.erb:1:in `_app_views_posts__form_html_erb__385393890_95777830'
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (3.2ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.2ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (202.8ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 20:14:36 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (24.6ms)
+  Rendered posts/new.html.erb within layouts/application (28.6ms)
+Completed 500 Internal Server Error in 60ms
+
+ActionView::Template::Error (undefined method `country_id' for #<Post:0xb712cd4>):
+    26:   <div class="field">
+    27:   <div class="field">
+    28:     <% f.label :country %><br>
+    29:     <%= f.select(:country_id, [["India",1], ["America", 2], ["Spen", 3]]) %>
+    30:   </div>
+    31:     <%= f.label :created_date %><br>
+    32:     <%= f.text_field :created_date %>
+  app/views/posts/_form.html.erb:29:in `block in _app_views_posts__form_html_erb__385393890_95978230'
+  app/views/posts/_form.html.erb:1:in `_app_views_posts__form_html_erb__385393890_95978230'
+  app/views/posts/new.html.erb:3:in `_app_views_posts_new_html_erb___846408152_95175720'
+
+
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_trace.erb (5.2ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (2.1ms)
+  Rendered /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (234.1ms)
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 20:15:39 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (20.6ms)
+  Rendered posts/new.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 51ms (Views: 50.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 20:15:40 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 20:15:40 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 20:15:40 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 20:15:40 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 20:15:40 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 20:15:40 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 20:15:40 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 20:15:40 +0530
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-13 20:17:17 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (9.0ms)
+  Rendered posts/new.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 42ms (Views: 40.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-12-13 20:17:17 +0530
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-12-13 20:17:17 +0530
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-12-13 20:17:17 +0530
+
+
+Started GET "/assets/posts.css?body=1" for 127.0.0.1 at 2013-12-13 20:17:17 +0530
+
+
+Started GET "/assets/posts.js?body=1" for 127.0.0.1 at 2013-12-13 20:17:17 +0530
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-12-13 20:17:17 +0530
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2013-12-13 20:17:17 +0530
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-12-13 20:17:17 +0530

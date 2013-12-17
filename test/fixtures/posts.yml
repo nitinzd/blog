@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  title: 
+  auther: 
+  created_date: 
+  body: 
+
+two:
+  title: 
+  auther: 
+  created_date: 
+  body: 

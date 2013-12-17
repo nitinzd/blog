@@ -1,0 +1,330 @@
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 15:32:06 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (54.0ms)
+  Rendered posts/new.html.erb within layouts/application (78.5ms)
+Completed 200 OK in 1277ms (Views: 1197.9ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-12-12 15:32:07 +0530
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-12-12 15:32:07 +0530
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 15:32:12 +0530
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (21.6ms)
+Completed 500 Internal Server Error in 49ms
+
+ActionView::Template::Error (
+Problem:
+  No configuration could be found for a session named 'default'.
+Summary:
+  When attempting to create the new session, Mongoid could not find a session configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+Resolution:
+  Double check your mongoid.yml to make sure under the sessions key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+    14:   </thead>
+    15: 
+    16:   <tbody>
+    17:     <% @posts.each do |post| %>
+    18:       <tr>
+    19:         <td><%= post.title %></td>
+    20:         <td><%= post.auther %></td>
+  app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb__634910120_96683420'
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 15:32:12 +0530
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 35ms
+
+ActionView::Template::Error (
+Problem:
+  No configuration could be found for a session named 'default'.
+Summary:
+  When attempting to create the new session, Mongoid could not find a session configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+Resolution:
+  Double check your mongoid.yml to make sure under the sessions key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+    14:   </thead>
+    15: 
+    16:   <tbody>
+    17:     <% @posts.each do |post| %>
+    18:       <tr>
+    19:         <td><%= post.title %></td>
+    20:         <td><%= post.auther %></td>
+  app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb__634910120_96868140'
+
+
+Started GET "/" for 127.0.0.1 at 2013-12-12 15:32:33 +0530
+
+ActionController::RoutingError (No route matches [GET] "/"):
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:38:in `call_app'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:25:in `tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `tagged'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/engine.rb:511:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Started GET "/posts" for 127.0.0.1 at 2013-12-12 15:32:46 +0530
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (9.7ms)
+Completed 500 Internal Server Error in 37ms
+
+ActionView::Template::Error (
+Problem:
+  No configuration could be found for a session named 'default'.
+Summary:
+  When attempting to create the new session, Mongoid could not find a session configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+Resolution:
+  Double check your mongoid.yml to make sure under the sessions key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+    14:   </thead>
+    15: 
+    16:   <tbody>
+    17:     <% @posts.each do |post| %>
+    18:       <tr>
+    19:         <td><%= post.title %></td>
+    20:         <td><%= post.auther %></td>
+  app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb__634910120_96868140'
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 15:32:54 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (4.0ms)
+  Rendered posts/new.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 25ms (Views: 23.7ms)
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 15:33:05 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"owj2bw9DngK7jcf8uYGxi5iuW42vgJ4dEuqraPQg51Y=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (10.7ms)
+  Rendered posts/new.html.erb within layouts/application (18.6ms)
+Completed 200 OK in 49ms (Views: 44.8ms)
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 15:33:22 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"owj2bw9DngK7jcf8uYGxi5iuW42vgJ4dEuqraPQg51Y=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:377:in `_run__160816507__process_action__callbacks'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications.rb:159:in `block in instrument'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications.rb:159:in `instrument'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/base.rb:136:in `process'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/rendering.rb:44:in `process'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal.rb:195:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal.rb:231:in `block in action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:80:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:59:in `each'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:59:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:373:in `_run__492613557__call__callbacks'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:38:in `call_app'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:25:in `tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `tagged'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/engine.rb:511:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 15:33:40 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (3.7ms)
+  Rendered posts/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 28ms (Views: 27.3ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-12-12 15:33:40 +0530
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-12-12 15:33:40 +0530
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 15:33:46 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5wDzASWwD5ljUWagNEYpkeQNIMZpcMORAQC+4qGa56E=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (4.9ms)
+  Rendered posts/new.html.erb within layouts/application (9.8ms)
+Completed 200 OK in 36ms (Views: 31.7ms)
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 15:38:53 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5wDzASWwD5ljUWagNEYpkeQNIMZpcMORAQC+4qGa56E=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+  Rendered posts/_form.html.erb (4.1ms)
+  Rendered posts/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 28ms (Views: 25.1ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-12-12 15:38:54 +0530
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-12-12 15:38:54 +0530
+Started POST "/posts" for 127.0.0.1 at 2013-12-12 15:39:31 +0530
+Processing by PostsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"5wDzASWwD5ljUWagNEYpkeQNIMZpcMORAQC+4qGa56E=", "post"=>{"title"=>"", "auther"=>"", "created_date"=>"", "body"=>""}, "commit"=>"Create Post"}
+Can't verify CSRF token authenticity
+Completed 422 Unprocessable Entity in 1ms
+
+ActionController::InvalidAuthenticityToken (ActionController::InvalidAuthenticityToken):
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:163:in `handle_unverified_request'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:170:in `handle_unverified_request'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/request_forgery_protection.rb:177:in `verify_authenticity_token'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:377:in `_run__160816507__process_action__callbacks'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/callbacks.rb:17:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/rescue.rb:29:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/instrumentation.rb:31:in `block in process_action'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications.rb:159:in `block in instrument'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/notifications.rb:159:in `instrument'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/instrumentation.rb:30:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/params_wrapper.rb:245:in `process_action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/base.rb:136:in `process'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/abstract_controller/rendering.rb:44:in `process'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal.rb:195:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal/rack_delegation.rb:13:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_controller/metal.rb:231:in `block in action'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:80:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:80:in `dispatch'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:48:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:71:in `block in call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:59:in `each'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/journey/router.rb:59:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/routing/route_set.rb:680:in `call'
+  rack (1.5.2) lib/rack/etag.rb:23:in `call'
+  rack (1.5.2) lib/rack/conditionalget.rb:35:in `call'
+  rack (1.5.2) lib/rack/head.rb:11:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/params_parser.rb:27:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/flash.rb:241:in `call'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:225:in `context'
+  rack (1.5.2) lib/rack/session/abstract/id.rb:220:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/cookies.rb:486:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:373:in `_run__492613557__call__callbacks'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/callbacks.rb:80:in `run_callbacks'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/reloader.rb:64:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/remote_ip.rb:76:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:38:in `call_app'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `block in call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `block in tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:25:in `tagged'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/tagged_logging.rb:67:in `tagged'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/rack/logger.rb:20:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/activesupport/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  /media/Data/TechVision/Projects/rails/actionpack/lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/engine.rb:511:in `call'
+  /media/Data/TechVision/Projects/rails/railties/lib/rails/application.rb:97:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /home/nitin/.rvm/rubies/ruby-2.0.0-p247/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 15:39:41 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (4.2ms)
+  Rendered posts/new.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 30ms (Views: 29.6ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-12-12 15:39:41 +0530
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-12-12 15:39:41 +0530
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 15:44:01 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (5.1ms)
+  Rendered posts/new.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 40ms (Views: 39.7ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-12-12 15:44:01 +0530
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-12-12 15:44:01 +0530
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 15:44:34 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (3.4ms)
+  Rendered posts/new.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 28ms (Views: 27.0ms)
+Started GET "/posts/" for 127.0.0.1 at 2013-12-12 15:44:59 +0530
+Processing by PostsController#index as HTML
+  Rendered posts/index.html.erb within layouts/application (9.3ms)
+Completed 500 Internal Server Error in 26ms
+
+ActionView::Template::Error (
+Problem:
+  No configuration could be found for a session named 'default'.
+Summary:
+  When attempting to create the new session, Mongoid could not find a session configuration for the name: 'default'. This is necessary in order to know the host, port, and options needed to connect.
+Resolution:
+  Double check your mongoid.yml to make sure under the sessions key that a configuration exists for 'default'. If you have set the configuration programatically, ensure that 'default' exists in the configuration hash.):
+    14:   </thead>
+    15: 
+    16:   <tbody>
+    17:     <% @posts.each do |post| %>
+    18:       <tr>
+    19:         <td><%= post.title %></td>
+    20:         <td><%= post.auther %></td>
+  app/views/posts/index.html.erb:17:in `_app_views_posts_index_html_erb__634910120_96868140'
+
+
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 15:45:06 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (2.8ms)
+  Rendered posts/new.html.erb within layouts/application (6.9ms)
+Completed 200 OK in 22ms (Views: 21.0ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-12-12 15:45:06 +0530
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-12-12 15:45:06 +0530
+Started GET "/posts/new" for 127.0.0.1 at 2013-12-12 16:42:39 +0530
+Processing by PostsController#new as HTML
+  Rendered posts/_form.html.erb (3.7ms)
+  Rendered posts/new.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 26ms (Views: 26.2ms)
+Started GET "/assets/application.css" for 127.0.0.1 at 2013-12-12 16:42:39 +0530
+Started GET "/assets/application.js" for 127.0.0.1 at 2013-12-12 16:42:39 +0530

@@ -1,0 +1,54 @@
+<%= form_for(@post) do |f| %>
+  <% if @post.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
+
+      <ul>
+      <% @post.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :title %><br>
+    <%= f.text_field :title %>
+  </div>
+  <div class="email">
+    <%= f.label :email %><br>
+    <%= f.email_field :email %>
+  </div>
+  <div class="field">
+    <%= f.label :author %><br>
+    <%= f.text_field :author %>
+  </div>
+  <div class="field">
+  <div class="field">
+    <% f.label :country %><br>
+    <%= f.select(:country, [["India",1], ["America", 2], ["Spen", 3]]) %>
+  </div>
+    <%= f.label :created_date %><br>
+    <%= f.text_field :created_date %>
+  </div>
+  <div class="field">
+  <%= f.label :body %><br>
+    <%= f.text_area :body %>
+  </div>
+  <div class="field">
+    <%= f.label :select_tag %><br>
+	    <%= f.radio_button(:select_tag, "Ruby") %>
+	    <%= f.radio_button(:select_tag, "Rails") %>
+</div>
+  <div class="field">
+    <%= f.label :publish%><br>
+    <%= f.check_box :publish%>
+</div>
+  <div class="field">
+    <%= f.label :post_number %><br>
+    <%= f.hidden_field :post_number %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<%end  %>
