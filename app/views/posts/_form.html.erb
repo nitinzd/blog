@@ -4,8 +4,10 @@
       <h2><%= pluralize(@post.errors.count, "error") %> prohibited this post from being saved:</h2>
 
       <ul>
-      <% @post.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
+      <% @post.errors.messages.each do |key, value| %>
+	<% value.each do |val| %>
+	  <li><%= link_to "#{key.to_s.titleize} #{val}", "#", id: "error_link", class: "error_link", field: "#{@post.class.name.underscore}_#{key.to_s}" %></li>
+	<% end %>
       <% end %>
       </ul>
     </div>
@@ -13,19 +15,19 @@
 
   <div class="field">
     <%= f.label :title %><br>
-    <%= f.text_field :title %>
+    <%= f.text_field :title, "aria-required" => "true" %>
   </div>
-  <div class="email">
+  <div class="field">
     <%= f.label :email %><br>
     <%= f.email_field :email %>
   </div>
   <div class="field">
     <%= f.label :author %><br>
-    <%= f.text_field :author %>
+    <%= f.text_field :author, "aria-required" => "true" %>
   </div>
   <div class="field">
   <div class="field">
-    <% f.label :country %><br>
+    <%= f.label :country %><br>
     <%= f.select(:country, [["India",1], ["America", 2], ["Spen", 3]]) %>
   </div>
     <%= f.label :created_date %><br>
@@ -33,20 +35,23 @@
   </div>
   <div class="field">
   <%= f.label :body %><br>
-    <%= f.text_area :body %>
+    <%= f.text_area :body, "aria-describedby" => "description" %>
+    <%= f.label "Maximum 500 characters are allowed", id: "description" %>
   </div>
   <div class="field">
     <%= f.label :select_tag %><br>
-	    <%= f.radio_button(:select_tag, "Ruby") %>
-	    <%= f.radio_button(:select_tag, "Rails") %>
-</div>
+    <%= f.label :Ruby %><br>
+	    <%= f.radio_button(:select_tag, "Ruby") %><br>
+    <%= f.label :Rails %><br>
+    <%= f.radio_button(:select_tag, "Rails") %><br>
+  </div>
+  <div class="field">
+    <%= f.label "Post Number" %><br>
+    <%= f.text_field :post_number %><br>
+  </div>
   <div class="field">
     <%= f.label :publish%><br>
     <%= f.check_box :publish%>
-</div>
-  <div class="field">
-    <%= f.label :post_number %><br>
-    <%= f.hidden_field :post_number %>
   </div>
   <div class="actions">
     <%= f.submit %>
